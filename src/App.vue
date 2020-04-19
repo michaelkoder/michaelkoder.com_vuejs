@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HeaderBox msg="Welcomee2 to Your Vue.js App"/>
+    <HeaderBox/>
     <router-view></router-view>
     <FooterBox/>
 
@@ -15,10 +15,10 @@ import FooterBox from './components/FooterBox.vue'
 
 export default {
   name: 'App',
-  components: {
+  components: { 
     HeaderBox,
     FooterBox
-  }
+  },
 }
 </script>
 
@@ -33,7 +33,7 @@ export default {
 #app .whiteTxt{
   color:#FFFFFF;
 }
-#app a{
+#app main a{
   color:#000000;
 }
 </style>

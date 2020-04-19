@@ -294,7 +294,7 @@ Voir les autres témoignages >>
 
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 
-
+ 
 export default {
   methods:{
       myFunction: function () {   

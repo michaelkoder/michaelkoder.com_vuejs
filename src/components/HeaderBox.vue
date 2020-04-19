@@ -17,14 +17,13 @@
                 <router-link to="/graphisme">GRAPHISME</router-link>
                 <router-link to="/contact">CONTACT</router-link>
 
-          </li>
-        </ul>
-        <span class="form-inline">
-        </span>
-    </div>
-  </nav>
-  
-</header>
+            </li>
+          </ul>
+          <span class="form-inline">
+          </span>
+      </div>
+    </nav>
+  </header>
 </template>
 
 <script>
@@ -44,6 +43,7 @@ export default {
   }
   nav a{
     margin:0px 1.7rem 0;
+    color:#FFFFFF;
   }
   nav a.router-link-active{
     text-decoration: underline;
