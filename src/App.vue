@@ -36,4 +36,13 @@ export default {
 #app main a{
   color:#000000;
 }
+.carouselBox{
+  min-height:500px;
+}
+.slidersBox .carousel-control-next, 
+.slidersBox .carousel-control-next:hover,
+.slidersBox .carousel-control-prev:hover,
+.slidersBox .carousel-control-prev{
+  color:#000000;
+}
 </style>
